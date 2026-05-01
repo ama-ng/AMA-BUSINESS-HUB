@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Connect | AMA Digital Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for Professional Look -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">AMA Digital Hub</div>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdZREpADduG-vY_5C70lLSXDXpFS_p90nUTMTx7YvOaY9k8YQ/viewform?usp=publish-editor" target="_blank" class="register-btn">Register Your Business</a>
+        </nav>
+        <div class="hero">
+            <h1>Welcome to Our Marketplace</h1>
+            <p>Connecting you with trusted local vendors in your community.</p>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="What product are you looking for? (e.g., Rice, Cement, Shoes)">
+                <button onclick="searchBusiness()">Search</button>
+            </div>
+        </div>
+    </header>
+
+    <main id="businessContainer">
+        <!-- Business cards will appear here dynamically -->
+        <div class="loader">Loading trusted businesses...</div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 AMA Digital Hub. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
